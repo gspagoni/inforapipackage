@@ -9,9 +9,9 @@ this package is meant to handle ionapi file of type backend service
 it is composed by 4 functions
 
 - InitializeApiFile(filename)
-- Status
-- Message
-- RetunrTokenObj
+- Status()
+- Message()
+- RetunrTokenObj()
 
 <hr>
 
@@ -36,7 +36,7 @@ app.listen(3000, () => {
 })
 ```
 
-## Status
+## Status()
 this function return the status setted by the InitializeApiFile function
 
 values:
@@ -52,7 +52,7 @@ values:
     }
 ```
 
-## Message
+## Message()
 this function print the message setted by the InitializeApiFile function
 if the check of the file fail, then the Message function print the error message
 if the check of the file pass, then the Message function print the text 'All checks passed'
@@ -61,7 +61,7 @@ if the check of the file pass, then the Message function print the text 'All che
     console.log(infor.Message())
 ```
 
-## ReturnTokenObj
+## ReturnTokenObj()
 this function return an object that contains the token
 you can use in an async function or as a promise
 
@@ -82,3 +82,6 @@ promise
 ```
 
 ![image](https://user-images.githubusercontent.com/22134155/97788174-39f11c80-1bb7-11eb-8fd7-725c48b5b87d.png)
+
+<hr>
+Copyright &copy; 2020 Giampaolo Spagoni
