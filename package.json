@@ -1,6 +1,6 @@
 {
   "name": "inforapipackage",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Infor Package for managing ionapi files",
   "main": "index.js",
   "scripts": {

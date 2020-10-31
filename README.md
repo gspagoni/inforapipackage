@@ -61,7 +61,7 @@ if the check of the file pass, then the Message function print the text 'All che
     console.log(infor.Message())
 ```
 
-## RetunrTokenObj
+## ReturnTokenObj
 this function return an object that contains the token
 you can use in an async function or as a promise
 
