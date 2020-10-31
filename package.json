@@ -1,0 +1,28 @@
+{
+  "name": "inforapipackage",
+  "version": "1.0.0",
+  "description": "Infor Package for managing ionapi files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gspagoni/inforapipackage.git"
+  },
+  "keywords": [
+    "infor"
+  ],
+  "author": "Giampaolo Spagoni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gspagoni/inforapipackage/issues"
+  },
+  "homepage": "https://github.com/gspagoni/inforapipackage#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "base-64": "^1.0.0",
+    "express": "^4.17.1",
+    "request": "^2.88.2"
+  }
+}
