@@ -83,5 +83,11 @@ promise
 
 ![image](https://user-images.githubusercontent.com/22134155/97788174-39f11c80-1bb7-11eb-8fd7-725c48b5b87d.png)
 
+
+## GetBaseURL()
+this function return the baseurl used for invoking infor ion api
+in the ionapi file it is the property (iu)
+![image](https://user-images.githubusercontent.com/22134155/97805611-7411fb00-1c57-11eb-84b9-a447fbb61c86.png)
+
 <hr>
 Copyright &copy; 2020 Giampaolo Spagoni
