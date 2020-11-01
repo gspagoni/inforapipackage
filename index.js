@@ -11,6 +11,9 @@
   * if all test are passed return status = OK
  *  if all test are NOT passed return status = KO
  * 
+ *  Version 1.1.0
+ *  Return the BaseURL
+ * 
  */
 const fs = require('fs')
 const request = require('request')
@@ -72,6 +75,10 @@ exports.Message = function() {
     return retObj.message;
 }
 
+
+exports.GetBaseURL = function() {
+    return ionapi.iu
+}
 
 /**
  * 
