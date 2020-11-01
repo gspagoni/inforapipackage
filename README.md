@@ -6,12 +6,13 @@ this package is meant to handle ionapi file of type backend service
 
 ` npm install inforapipackege -D `
 
-it is composed by 4 functions
+it is composed by 5 functions
 
 - InitializeApiFile(filename)
 - Status()
 - Message()
 - RetunrTokenObj()
+- GetBaseURL()
 
 <hr>
 
