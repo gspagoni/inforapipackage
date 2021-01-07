@@ -4,7 +4,7 @@ this package is meant to handle ionapi file of type backend service
 
 # Installation
 
-` npm install inforapipackege -D `
+` npm install inforapipackage`
 
 it is composed by 5 functions
 
